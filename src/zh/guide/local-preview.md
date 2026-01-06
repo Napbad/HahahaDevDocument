@@ -18,7 +18,12 @@ cargo install mdbook --locked
 mdbook serve
 ```
 
-默认会监听 `http://localhost:3000`，并在你修改 `src/` 下的 Markdown 后自动刷新。
+默认会监听 `http://localhost:3000`，并在你修改 `src/` 下的 Markdown 后自动刷新（包含 `src/en/` 与 `src/zh/`）。
+
+预览时可以通过路径访问不同语言：
+
+- 英文：`/en/...`
+- 中文：`/zh/...`
 
 ## 构建静态文件
 

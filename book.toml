@@ -1,8 +1,8 @@
 [book]
 title = "HahahaDevDocument"
 authors = ["HahahaDevDocument Contributors"]
-description = "Hahaha 项目开发交流、设计方案与决策记录（mdBook）"
-language = "zh-CN"
+description = "Development notes, design docs, and architecture decisions for the Hahaha project (mdBook)."
+language = "en"
 src = "src"
 
 [build]
